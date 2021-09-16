@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// i stole this api key from your official website!!
-const apiKey = 'AIzaSyCjiWRgSkx0nyC7-PSU-0BOVLRORoiRH0Y';
+// put your api key!!
+const apiKey = '';
 
 export async function addressAutoComplete(input) {
   input = input.replace(' ', '');
